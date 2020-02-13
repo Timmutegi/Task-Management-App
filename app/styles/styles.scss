@@ -1,13 +1,32 @@
-.main-container{
-  display: grid;
-  grid-template-columns: 20% auto;
-
-  .side-nav {
-    border-right: 1px black;
-  }
+.main-container {
+    display: grid;
+    grid-template-columns: 15% auto;
+    .side-nav {
+        border-right: 1px black;
+        background-color: #F9FAFA;
+        height: 100vh;
+        .container {
+            padding-top: 30px;
+            nav {
+                margin-top: 30px;
+                .nav-link {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .container {
+        padding-top: 30px;
+        .nav {
+            a {
+                color: black;
+            }
+        }
+    }
 }
+
 .is-complete {
-  opacity: 0.6;
-  text-decoration: line-through;
-  background: #d1d1d1;
+    opacity: 0.6;
+    text-decoration: line-through;
+    background: #d1d1d1;
 }

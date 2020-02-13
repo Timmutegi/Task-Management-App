@@ -1,5 +1,7 @@
 import Component from '@glimmer/component';
 
 export default
-  class TaskListComponent extends Component {
+class TaskListComponent extends Component {
+    pinnedTask;
+
 }
