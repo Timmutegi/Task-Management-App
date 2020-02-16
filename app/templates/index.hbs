@@ -1,4 +1,3 @@
-<h1>Task List</h1>
 <h4>Pinned Task</h4>
 {{#if this.pinnedTask}}
   <div class="list-group-item {{if this.pinnedTask.isComplete "is-complete"}}">
@@ -24,7 +23,6 @@
 {{else}}
   No Pinned Tasks
 {{/if}}
-<h4>Other Tasks</h4>
 <TaskList @tasks={{this.model}} />
 
 <nav class="navbar navbar-light bg-light">

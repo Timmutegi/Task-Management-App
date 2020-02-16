@@ -17,10 +17,27 @@
     }
     .container {
         padding-top: 30px;
+        .list-group-item {
+            border-right: none;
+            border-left: none;
+        }
+        .list-group {
+            border-right: none;
+        }
         .nav {
             a {
                 color: black;
             }
+        }
+        .secondary {
+            background-color: white;
+            border: none;
+        }
+        .primary {
+            background-color: #EDF0F4;
+            border: none;
+            color: black;
+            margin-left: 10px;
         }
     }
 }

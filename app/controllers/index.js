@@ -7,8 +7,4 @@ export default class IndexController extends Controller {
     get completed() {
         return this.completed;
     }
-
-    // get pinnedTask() {
-    //     return this.args.pinnedTask;
-    // }
 }
